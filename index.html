@@ -182,8 +182,8 @@
             async initialize() {
                 try {
                     const [iconData, serviceInfo] = await Promise.all([
-                        fetch('/icon-data.json').then(r => r.json()),
-                        fetch('/service-info.json').then(r => r.json())
+                        fetch('icon-data.json').then(r => r.json()),
+                        fetch('service-info.json').then(r => r.json())
                     ]);
 
                     this.folders = iconData;
