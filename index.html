@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon Browser</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .select-folder {
+            text-align: center;
+            padding: 40px;
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .folder-group {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .folder-title {
+            margin: 0 0 20px 0;
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 16px;
+        }
+
+        .icon-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 16px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            transition: transform 0.2s;
+            position: relative;
+            background: white;
+        }
+
+        .icon-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .icon-item img {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 12px;
+            object-fit: contain;
+        }
+
+        .icon-name {
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+            color: #333;
+            margin-bottom: 8px;
+            word-break: break-word;
+        }
+
+        .icon-description {
+            font-size: 12px;
+            color: #666;
+            margin: 8px 0;
+            text-align: center;
+            line-height: 1.4;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .icon-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            justify-content: center;
+            margin-top: 8px;
+            width: 100%;
+        }
+
+        .icon-tag {
+            font-size: 11px;
+            background: #f0f0f0;
+            padding: 3px 8px;
+            border-radius: 12px;
+            color: #666;
+        }
+
+        .search-container {
+            position: sticky;
+            top: 0;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 100;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .search-stats {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .folder-group.hidden {
+            display: none;
+        }
+
+        .icon-item.hidden {
+            display: none;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            background: white;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .highlight {
+            background-color: #fff3cd;
+            padding: 0 2px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="select-folder">
+        <h1>Icon Browser</h1>
+        <p>Showing icons from the icons directory</p>
+    </div>
+    <div class="search-container">
+        <input type="text" 
+               class="search-input" 
+               placeholder="Search icons by name, description, or tags..."
+               aria-label="Search icons">
+        <div class="search-stats"></div>
+    </div>
+    <div id="iconContainer"></div>
+
+    <script>
+        class IconBrowser {
+            constructor() {
+                this.iconContainer = document.getElementById('iconContainer');
+                this.searchInput = document.querySelector('.search-input');
+                this.searchStats = document.querySelector('.search-stats');
+                this.serviceInfo = null;
+                this.folders = null;
+                
+                this.initialize();
+            }
+
+            async initialize() {
+                try {
+                    const [iconData, serviceInfo] = await Promise.all([
+                        fetch('/icon-data.json').then(r => r.json()),
+                        fetch('/service-info.json').then(r => r.json())
+                    ]);
+
+                    this.folders = iconData;
+                    this.serviceInfo = serviceInfo;
+                    
+                    this.setupSearch();
+                    this.filterIcons('');
+                } catch (error) {
+                    console.error('Error loading data:', error);
+                    this.iconContainer.innerHTML = '<div class="error">Failed to load icons</div>';
+                }
+            }
+
+            setupSearch() {
+                let debounceTimeout;
+                this.searchInput.addEventListener('input', (e) => {
+                    clearTimeout(debounceTimeout);
+                    debounceTimeout = setTimeout(() => {
+                        this.filterIcons(e.target.value.toLowerCase());
+                    }, 300);
+                });
+            }
+
+            filterIcons(searchTerm) {
+                this.iconContainer.innerHTML = '';
+                let totalIcons = 0;
+                let totalVisible = 0;
+
+                Object.entries(this.folders).forEach(([folderName, icons]) => {
+                    const folderGroup = document.createElement('div');
+                    folderGroup.className = 'folder-group';
+                    
+                    const title = document.createElement('h2');
+                    title.className = 'folder-title';
+                    title.textContent = folderName;
+                    folderGroup.appendChild(title);
+
+                    const grid = document.createElement('div');
+                    grid.className = 'icon-grid';
+
+                    let visibleInFolder = 0;
+                    icons.forEach(icon => {
+                        totalIcons++;
+                        const serviceData = this.serviceInfo[icon.path];
+                        const searchableText = [
+                            icon.name,
+                            serviceData?.description || '',
+                            ...(serviceData?.tags || []),
+                            folderName
+                        ].join(' ').toLowerCase();
+
+                        if (!searchTerm || searchableText.includes(searchTerm)) {
+                            visibleInFolder++;
+                            totalVisible++;
+                            grid.appendChild(this.createIconElement(icon, serviceData, searchTerm));
+                        }
+                    });
+
+                    if (visibleInFolder > 0) {
+                        folderGroup.appendChild(grid);
+                        this.iconContainer.appendChild(folderGroup);
+                    }
+                });
+
+                this.updateSearchStats(totalVisible, totalIcons, searchTerm);
+            }
+
+            createIconElement(icon, serviceData, searchTerm) {
+                const iconDiv = document.createElement('div');
+                iconDiv.className = 'icon-item';
+
+                const img = document.createElement('img');
+                img.src = icon.path;
+                img.alt = serviceData?.name || icon.name;
+                iconDiv.appendChild(img);
+                
+                const name = document.createElement('div');
+                name.className = 'icon-name';
+                name.textContent = serviceData?.name || icon.name;
+                iconDiv.appendChild(name);
+
+                if (serviceData?.description) {
+                    const description = document.createElement('div');
+                    description.className = 'icon-description';
+                    description.textContent = serviceData.description;
+                    iconDiv.appendChild(description);
+                }
+
+                if (serviceData?.tags?.length) {
+                    const tags = document.createElement('div');
+                    tags.className = 'icon-tags';
+                    serviceData.tags.forEach(tag => {
+                        const tagSpan = document.createElement('span');
+                        tagSpan.className = 'icon-tag';
+                        tagSpan.textContent = tag;
+                        tags.appendChild(tagSpan);
+                    });
+                    iconDiv.appendChild(tags);
+                }
+
+                if (searchTerm) {
+                    this.highlightText(name, searchTerm);
+                }
+
+                return iconDiv;
+            }
+
+            updateSearchStats(visible, total, searchTerm) {
+                if (searchTerm) {
+                    this.searchStats.textContent = `Showing ${visible} of ${total} icons`;
+                } else {
+                    this.searchStats.textContent = `Showing all ${total} icons`;
+                }
+
+                if (visible === 0) {
+                    this.iconContainer.innerHTML = `
+                        <div class="no-results">
+                            <h2>No matching icons found</h2>
+                            <p>Try a different search term</p>
+                        </div>
+                    `;
+                }
+            }
+
+            highlightText(element, searchTerm) {
+                const text = element.textContent;
+                const regex = new RegExp(`(${searchTerm})`, 'gi');
+                element.innerHTML = text.replace(regex, '<span class="highlight">$1</span>');
+            }
+        }
+
+        new IconBrowser();
+    </script>
+</body>
+</html>
