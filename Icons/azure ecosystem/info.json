@@ -1,0 +1,29 @@
+{
+  "/icons/azure ecosystem/01038-icon-service-Collaborative-Service.svg": {
+    "name": "Collaborative Service",
+    "description": "Enables secure, real-time collaboration for cloud-based applications and services",
+    "tags": [
+      "collaboration",
+      "real-time",
+      "security"
+    ]
+  },
+  "/icons/azure ecosystem/02354-icon-service-Applens.svg": {
+    "name": "Applens",
+    "description": "A managed web application gateway that helps you manage traffic and secure access to your web applications",
+    "tags": [
+      "Application Delivery",
+      "Load Balancing",
+      "Web Security"
+    ]
+  },
+  "/icons/azure ecosystem/02573-icon-service-Azure-Hybrid-Center.svg": {
+    "name": "Azure Hybrid Center",
+    "description": "Streamlines hybrid cloud management by providing a unified view of on-premises and cloud-based resources, making it easier to manage and govern hybrid environments.",
+    "tags": [
+      "hybrid-cloud",
+      "Azure-Hybrid-Benefit",
+      "cloud-management"
+    ]
+  }
+}

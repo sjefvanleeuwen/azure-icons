@@ -1,0 +1,377 @@
+{
+  "/icons/compute/10021-icon-service-Virtual-Machine.svg": {
+    "name": "Virtual Machine",
+    "description": "Create Windows and Linux virtual machines in seconds",
+    "tags": [
+      "compute",
+      "vm",
+      "iaas",
+      "virtual machines"
+    ]
+  },
+  "/icons/compute/10034-icon-service-VM-Scale-Sets.svg": {
+    "name": "VM Scale Sets",
+    "description": "Manage and scale sets of identical virtual machines",
+    "tags": [
+      "compute",
+      "scaling",
+      "vm",
+      "high availability"
+    ]
+  },
+  "/icons/compute/10029-icon-service-Function-Apps.svg": {
+    "name": "Function Apps",
+    "description": "Execute event-driven serverless code functions with automatic scaling",
+    "tags": [
+      "compute",
+      "serverless",
+      "functions",
+      "event-driven"
+    ]
+  },
+  "/icons/compute/00195-icon-service-Maintenance-Configuration.svg": {
+    "name": "Maintenance Configuration",
+    "description": "Configure maintenance schedule and settings for Azure resources, including VMs, virtual networks, and more.",
+    "tags": [
+      "azure-maintenance",
+      "cloud-configuration",
+      "infrastructure-management"
+    ]
+  },
+  "/icons/compute/00328-icon-service-Host-Pools.svg": {
+    "name": "Host Pools",
+    "description": "Provides managed, highly available host pools for Windows Virtual Desktop sessions",
+    "tags": [
+      "Azure",
+      "Windows Virtual Desktop",
+      "Host Pools",
+      "Desktop as a Service"
+    ]
+  },
+  "/icons/compute/00329-icon-service-Application-Group.svg": {
+    "name": "Application Group",
+    "description": "A managed resource that groups multiple Azure services to simplify management and scaling of a distributed application.",
+    "tags": [
+      "Azure",
+      "Application Services",
+      "Distributed Systems"
+    ]
+  },
+  "/icons/compute/00330-icon-service-Workspaces.svg": {
+    "name": "Workspaces",
+    "description": "Provides a centralized hub for collaboration, data exploration, and machine learning workloads",
+    "tags": [
+      "Analytics",
+      "Collaboration",
+      "Machine Learning",
+      "Data Exploration"
+    ]
+  },
+  "/icons/compute/00398-icon-service-Disk-Encryption-Sets.svg": {
+    "name": "Disk Encryption Sets",
+    "description": "Manage and monitor disk encryption settings across multiple disks and virtual machines in Azure.",
+    "tags": [
+      "Azure Disk Encryption",
+      "Data Security",
+      "Cloud Storage"
+    ]
+  },
+  "/icons/compute/00400-icon-service-Workspaces.svg": {
+    "name": "Workspaces",
+    "description": "Azure Workspaces enables collaboration, data sharing, and analytics for teams to drive insights and decision-making",
+    "tags": [
+      "Collaboration",
+      "Data Sharing",
+      "Analytics",
+      "Teamwork"
+    ]
+  },
+  "/icons/compute/02112-icon-service-Automanaged-VM.svg": {
+    "name": "Automanaged VM",
+    "description": "Automated management and monitoring of virtual machines for improved reliability, security, and compliance",
+    "tags": [
+      "Azure",
+      "VirtualMachines",
+      "Management"
+    ]
+  },
+  "/icons/compute/02370-icon-service-Managed-Service-Fabric.svg": {
+    "name": "Managed Service Fabric",
+    "description": "Automates deployment, management, and scaling of distributed systems on Windows or Linux nodes",
+    "tags": [
+      "PaaS",
+      "ServiceFabric",
+      "Microservices"
+    ]
+  },
+  "/icons/compute/02409-icon-service-Metrics-Advisor.svg": {
+    "name": "Metrics Advisor",
+    "description": "Monitors and analyzes system performance metrics to provide proactive recommendations for optimization.",
+    "tags": [
+      "Azure",
+      "Cloud Computing",
+      "Performance Optimization"
+    ]
+  },
+  "/icons/compute/02634-icon-service-Image-Templates.svg": {
+    "name": "Image Templates",
+    "description": "Azure Image Templates allows you to create reusable templates for virtual machines (VMs) to streamline provisioning and deployment.",
+    "tags": [
+      "Virtual Machines",
+      "Provisioning",
+      "Deployment"
+    ]
+  },
+  "/icons/compute/02817-icon-service-Restore-Points.svg": {
+    "name": "Restore Points",
+    "description": "Automates the process of restoring virtual machines to a known good state in case of failure or data loss.",
+    "tags": [
+      "Azure Virtual Machines",
+      "Backup and Recovery",
+      "Disaster Recovery"
+    ]
+  },
+  "/icons/compute/02818-icon-service-Restore-Points-Collections.svg": {
+    "name": "Restore Points Collections",
+    "description": "Automates snapshotting and backup of Azure resources, such as virtual machines and storage accounts, to create restore points for disaster recovery.",
+    "tags": [
+      "Azure Backup",
+      "Disaster Recovery",
+      "Cloud Security"
+    ]
+  },
+  "/icons/compute/02864-icon-service-Azure-Compute-Galleries.svg": {
+    "name": "Azure Compute Galleries",
+    "description": "Azure Compute Gallery allows you to manage and deploy consistent, reproducible, and versioned compute resources across Azure environments.",
+    "tags": [
+      "Compute",
+      "Gallery",
+      "Resource Management",
+      "Azure DevOps"
+    ]
+  },
+  "/icons/compute/03487-icon-service-Compute-Fleet.svg": {
+    "name": "Compute Fleet",
+    "description": "Manages and scales distributed compute workloads across multiple nodes",
+    "tags": [
+      "Compute",
+      "Cloud-Native",
+      "Distributed Computing"
+    ]
+  },
+  "/icons/compute/03543-icon-service-AKS-Automatic.svg": {
+    "name": "AKS Automatic",
+    "description": "Automates the management of Kubernetes clusters in Azure, simplifying cluster creation, scaling, and maintenance.",
+    "tags": [
+      "Kubernetes",
+      "Containerization",
+      "Cloud-Native"
+    ]
+  },
+  "/icons/compute/10023-icon-service-Kubernetes-Services.svg": {
+    "name": "Kubernetes Services",
+    "description": "Azure Kubernetes Service (AKS) simplifies deploying, managing, and scaling containerized applications",
+    "tags": [
+      "Containerization",
+      "Cloud-Native",
+      "DevOps"
+    ]
+  },
+  "/icons/compute/10024-icon-service-Mesh-Applications.svg": {
+    "name": "Mesh Applications",
+    "description": "Azure Mesh enables secure, reliable, and scalable communication between microservices in distributed applications.",
+    "tags": [
+      "Microservice Architecture",
+      "Service Mesh",
+      "Distributed Systems",
+      "Cloud-Native"
+    ]
+  },
+  "/icons/compute/10025-icon-service-Availability-Sets.svg": {
+    "name": "Availability Sets",
+    "description": "Azure Availability Sets allow you to group virtual machines by their availability requirements, enabling automatic failover between fault domains.",
+    "tags": [
+      "Availability",
+      "High Availability",
+      "Disaster Recovery",
+      "VM Management"
+    ]
+  },
+  "/icons/compute/10026-icon-service-Disks-Snapshots.svg": {
+    "name": "Disks Snapshots",
+    "description": "Create point-in-time snapshots of Azure disks for backup, disaster recovery, or versioning",
+    "tags": [
+      "backup",
+      "disaster-recovery",
+      "storage"
+    ]
+  },
+  "/icons/compute/10027-icon-service-OS-Images-(Classic).svg": {
+    "name": "OS Images (Classic)",
+    "description": "Manage operating system images for virtual machines, including Windows and Linux",
+    "tags": [
+      "Azure Virtual Machines",
+      "OS Management",
+      "Image Management"
+    ]
+  },
+  "/icons/compute/10028-icon-service-Virtual-Machines-(Classic).svg": {
+    "name": "Virtual Machines (Classic)",
+    "description": "Deploy, manage, and scale virtual machines that run Linux or Windows in the cloud.",
+    "tags": [
+      "virtual-machines",
+      "classic-virtual-machines",
+      "compute"
+    ]
+  },
+  "/icons/compute/10030-icon-service-Cloud-Services-(Classic).svg": {
+    "name": "Cloud Services (Classic)",
+    "description": "Deploy and manage scalable web applications, APIs, and services using Windows or Linux virtual machines.",
+    "tags": [
+      "Cloud Computing",
+      "Virtual Machines",
+      "Web Apps"
+    ]
+  },
+  "/icons/compute/10031-icon-service-Batch-Accounts.svg": {
+    "name": "Batch Accounts",
+    "description": "Cloud-scale job scheduling and execution service for high-performance computing and parallel processing",
+    "tags": [
+      "cloud-computing",
+      "high-performance-computing",
+      "job-scheduling",
+      "parallel-processing"
+    ]
+  },
+  "/icons/compute/10032-icon-service-Disks.svg": {
+    "name": "Disks",
+    "description": "Persistent block-level storage volumes that can be attached to virtual machines or used as data disks",
+    "tags": [
+      "Storage",
+      "Virtual Machines",
+      "Data Disks"
+    ]
+  },
+  "/icons/compute/10033-icon-service-Images.svg": {
+    "name": "Images",
+    "description": "Azure Images provides a managed image repository for storing, managing, and deploying images, such as OS images, application images, or Docker containers.",
+    "tags": [
+      "image-management",
+      "container-registries",
+      "azure-container-registry",
+      "artifact-repositories"
+    ]
+  },
+  "/icons/compute/10035-icon-service-App-Services.svg": {
+    "name": "App Services",
+    "description": "Host, deploy, and manage web applications and services in the cloud",
+    "tags": [
+      "Azure",
+      "Cloud Computing",
+      "Web Development"
+    ]
+  },
+  "/icons/compute/10036-icon-service-Service-Fabric-Clusters.svg": {
+    "name": "Service Fabric Clusters",
+    "description": "Service Fabric Clusters provides a distributed systems platform that makes it easier to build scalable, reliable, and maintainable distributed applications",
+    "tags": [
+      "Distributed Systems",
+      "Containerization",
+      "Microservices"
+    ]
+  },
+  "/icons/compute/10037-icon-service-Image-Definitions.svg": {
+    "name": "Image Definitions",
+    "description": "Azure Image Definitions allows you to define and manage custom virtual machine (VM) images in Azure, providing a consistent and reproducible environment for your applications.",
+    "tags": [
+      "azure",
+      "image-definition",
+      "virtual-machine",
+      "cloud-computing"
+    ]
+  },
+  "/icons/compute/10038-icon-service-Image-Versions.svg": {
+    "name": "Image Versions",
+    "description": "Manage multiple versions of images in Azure Container Registry",
+    "tags": [
+      "Azure",
+      "Container Registry",
+      "Image Management"
+    ]
+  },
+  "/icons/compute/10039-icon-service-Shared-Image-Galleries.svg": {
+    "name": "Shared Image Galleries",
+    "description": "Manages and organizes virtual machine images for easier deployment and management across Azure subscriptions",
+    "tags": [
+      "azure-vm",
+      "image-management",
+      "compute"
+    ]
+  },
+  "/icons/compute/10040-icon-service-VM-Images-(Classic).svg": {
+    "name": "VM Images (Classic)",
+    "description": "Provision virtual machines from pre-configured images, such as Windows Server or Linux distributions.",
+    "tags": [
+      "Virtual Machines",
+      "Compute",
+      "Azure Classic"
+    ]
+  },
+  "/icons/compute/10041-icon-service-Disks-(Classic).svg": {
+    "name": "Disks (Classic)",
+    "description": "Persistent block storage service for virtual machines, providing reliable data storage",
+    "tags": [
+      "storage",
+      "virtual-machines",
+      "persistent-disks"
+    ]
+  },
+  "/icons/compute/10049-icon-service-Container-Services-(Deprecated).svg": {
+    "name": "Container Services (Deprecated)",
+    "description": "Containerize, deploy, and manage microservices-based applications",
+    "tags": [
+      "containers",
+      "microservices",
+      "orchestration"
+    ]
+  },
+  "/icons/compute/10104-icon-service-Container-Instances.svg": {
+    "name": "Container Instances",
+    "description": "Easily run new containerized applications without managing servers or clusters.",
+    "tags": [
+      "Containerization",
+      "Serverless",
+      "Docker"
+    ]
+  },
+  "/icons/compute/10346-icon-service-Host-Groups.svg": {
+    "name": "Host Groups",
+    "description": "Host groups in Azure Virtual Network (VNet) allow administrators to group sets of virtual machines (VMs) for easier management and scaling.",
+    "tags": [
+      "Azure",
+      "Virtual Network",
+      "VNet",
+      "Host Group"
+    ]
+  },
+  "/icons/compute/10347-icon-service-Hosts.svg": {
+    "name": "Hosts",
+    "description": "Azure Hosts provides scalable and secure infrastructure for hosting web applications, APIs, and microservices.",
+    "tags": [
+      "Web Hosting",
+      "Serverless Architecture",
+      "Containerized Applications"
+    ]
+  },
+  "/icons/compute/10370-icon-service-Azure-Spring-Apps.svg": {
+    "name": "Azure Spring Apps",
+    "description": "A fully managed platform for building, deploying, and scaling Java-based web applications using the popular Spring framework.",
+    "tags": [
+      "Azure",
+      "Spring",
+      "Java",
+      "Web Applications",
+      "Cloud-Native"
+    ]
+  }
+}

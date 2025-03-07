@@ -1,0 +1,304 @@
+{
+  "/icons/ai + machine learning/00028-icon-service-Batch-AI.svg": {
+    "name": "Batch AI",
+    "description": "Automates end-to-end AI model training, testing, and deployment in large-scale environments",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "Hyperparameter Tuning"
+    ]
+  },
+  "/icons/ai + machine learning/00030-icon-service-Machine-Learning-Studio-(Classic)-Web-Services.svg": {
+    "name": "Machine Learning Studio (Classic) Web Services",
+    "description": "Deploy machine learning models as RESTful web services to integrate with other applications",
+    "tags": [
+      "Machine Learning",
+      "Web Services",
+      "API"
+    ]
+  },
+  "/icons/ai + machine learning/00031-icon-service-Genomics.svg": {
+    "name": "Genomics",
+    "description": "Azure Genomics enables scalable, high-performance genomics analysis and interpretation for research and clinical applications.",
+    "tags": [
+      "Bioinformatics",
+      "Genomics",
+      "Cloud Computing"
+    ]
+  },
+  "/icons/ai + machine learning/00792-icon-service-Computer-Vision.svg": {
+    "name": "Computer Vision",
+    "description": "Azure Computer Vision is a cloud-based API that extracts valuable insights from images, such as text recognition, facial detection, and more.",
+    "tags": [
+      "ComputerVision",
+      "ImageProcessing",
+      "AI"
+    ]
+  },
+  "/icons/ai + machine learning/00793-icon-service-Custom-Vision.svg": {
+    "name": "Custom Vision",
+    "description": "Build, train, and deploy custom computer vision models to classify images or detect objects",
+    "tags": [
+      "AI",
+      "Machine Learning",
+      "Computer Vision"
+    ]
+  },
+  "/icons/ai + machine learning/00794-icon-service-Face-APIs.svg": {
+    "name": "Face APIs",
+    "description": "Azure Face APIs enable facial recognition, detection, and analysis in applications, using machine learning-based models to identify and verify identities.",
+    "tags": [
+      "AI",
+      "Machine Learning",
+      "Computer Vision"
+    ]
+  },
+  "/icons/ai + machine learning/00795-icon-service-Content-Moderators.svg": {
+    "name": "Content Moderators",
+    "description": "Automatically moderate user-generated content in real-time to ensure it meets community guidelines and standards.",
+    "tags": [
+      "Content Moderation",
+      "AI-Powered Moderation",
+      "Real-Time Moderation"
+    ]
+  },
+  "/icons/ai + machine learning/00796-icon-service-Personalizers.svg": {
+    "name": "Personalizers",
+    "description": "Azure Personalizers uses machine learning to provide personalized experiences by predicting the most likely next action or outcome for each user.",
+    "tags": [
+      "Machine Learning",
+      "Personalization",
+      "Recommendation Engine"
+    ]
+  },
+  "/icons/ai + machine learning/00797-icon-service-Speech-Services.svg": {
+    "name": "Speech Services",
+    "description": "Azure Speech Services enables developers to build intelligent speech solutions that can recognize, transcribe, and synthesize speech across multiple languages and formats.",
+    "tags": [
+      "AI",
+      "Machine Learning",
+      "Natural Language Processing"
+    ]
+  },
+  "/icons/ai + machine learning/00799-icon-service-QnA-Makers.svg": {
+    "name": "QnA Makers",
+    "description": "Build conversational interfaces that answer customer questions, using natural language processing (NLP) and machine learning.",
+    "tags": [
+      "AI",
+      "Chatbots",
+      "Conversational AI",
+      "Natural Language Processing"
+    ]
+  },
+  "/icons/ai + machine learning/00800-icon-service-Translator-Text.svg": {
+    "name": "Translator Text",
+    "description": "Azure Translator Text provides machine learning-based automatic translation for text in over 60 languages, with high-quality translations and customizable settings.",
+    "tags": [
+      "Language Processing",
+      "Machine Learning",
+      "Text Translation"
+    ]
+  },
+  "/icons/ai + machine learning/00801-icon-service-Language-Understanding.svg": {
+    "name": "Language Understanding",
+    "description": "Azure Language Understanding (LUIS) enables natural language processing (NLP) for chatbots, voice assistants, and other applications to understand user intent and extract relevant information.",
+    "tags": [
+      "Natural Language Processing",
+      "AI",
+      "Machine Learning"
+    ]
+  },
+  "/icons/ai + machine learning/00812-icon-service-Immersive-Readers.svg": {
+    "name": "Immersive Readers",
+    "description": "Enhance digital reading experiences by providing 3D immersive views of text, images, and other multimedia content.",
+    "tags": [
+      "immersive",
+      "reading",
+      "digital",
+      "multimedia"
+    ]
+  },
+  "/icons/ai + machine learning/00814-icon-service-Anomaly-Detector.svg": {
+    "name": "Anomaly Detector",
+    "description": "Detects anomalies in time series data to identify unusual patterns or outliers",
+    "tags": [
+      "machine learning",
+      "predictive analytics",
+      "time series analysis",
+      "outlier detection"
+    ]
+  },
+  "/icons/ai + machine learning/00819-icon-service-Form-Recognizers.svg": {
+    "name": "Form Recognizers",
+    "description": "Extracts data from forms, such as names, addresses, phone numbers, and dates, to automate business processes.",
+    "tags": [
+      "Azure",
+      "Form Recognition",
+      "Document Processing"
+    ]
+  },
+  "/icons/ai + machine learning/01239-icon-service-Azure-Experimentation-Studio.svg": {
+    "name": "Azure Experimentation Studio",
+    "description": "No such service exists",
+    "tags": [
+      "Azure",
+      "MachineLearning",
+      "DataScience"
+    ]
+  },
+  "/icons/ai + machine learning/01688-icon-service-Azure-Object-Understanding.svg": {
+    "name": "Azure Object Understanding",
+    "description": "Automatically identifies objects within images using computer vision techniques.",
+    "tags": [
+      "Computer Vision",
+      "Image Processing",
+      "Object Detection"
+    ]
+  },
+  "/icons/ai + machine learning/02409-icon-service-Metrics-Advisor.svg": {
+    "name": "Metrics Advisor",
+    "description": "A fully managed, machine learning-based service that analyzes metrics data to identify anomalies, trends, and patterns, and provides recommendations for optimization.",
+    "tags": [
+      "Machine Learning",
+      "Anomaly Detection",
+      "Cloud Monitoring"
+    ]
+  },
+  "/icons/ai + machine learning/02749-icon-service-Azure-Applied-AI-Services.svg": {
+    "name": "Azure Applied AI Services",
+    "description": "Azure Applied AI Services provides pre-trained AI models for computer vision, natural language processing, and decision-making, allowing developers to build AI-powered applications without extensive machine learning expertise.",
+    "tags": [
+      "AI",
+      "Machine Learning",
+      "Computer Vision",
+      "Natural Language Processing"
+    ]
+  },
+  "/icons/ai + machine learning/02876-icon-service-Language.svg": {
+    "name": "Language",
+    "description": "Azure Language uses AI-powered natural language processing (NLP) to analyze, generate, and translate text.",
+    "tags": [
+      "Natural-Language-Processing",
+      "Machine-Learning",
+      "Text-Analytics"
+    ]
+  },
+  "/icons/ai + machine learning/03173-icon-service-Cognitive-Services-Decisions.svg": {
+    "name": "Cognitive Services Decisions",
+    "description": "A decision-making platform that uses machine learning to analyze data and make recommendations",
+    "tags": [
+      "Cognitive Services",
+      "Decision Management",
+      "Machine Learning"
+    ]
+  },
+  "/icons/ai + machine learning/03321-icon-service-Serverless-Search.svg": {
+    "name": "Serverless Search",
+    "description": "Azure Cognitive Search enables serverless search capabilities for applications, providing scalable and cost-effective searching of large amounts of data.",
+    "tags": [
+      "Serverless",
+      "Search",
+      "Cloud",
+      "AI"
+    ]
+  },
+  "/icons/ai + machine learning/03337-icon-service-Bonsai.svg": {
+    "name": "Bonsai",
+    "description": "",
+    "tags": []
+  },
+  "/icons/ai + machine learning/03390-icon-service-Content-Safety.svg": {
+    "name": "Content Safety",
+    "description": "Azure Content Safety detects and classifies explicit content in images, videos, and text to help organizations comply with industry regulations and community standards.",
+    "tags": [
+      "Content Moderation",
+      "AI-Powered Modelling",
+      "Explicit Content Detection"
+    ]
+  },
+  "/icons/ai + machine learning/03438-icon-service-Azure-OpenAI.svg": {
+    "name": "Azure OpenAI",
+    "description": "Azure OpenAI enables you to integrate OpenAI's AI models into your applications, including text generation, completion, and classification.",
+    "tags": [
+      "AI",
+      "Machine Learning",
+      "Natural Language Processing"
+    ]
+  },
+  "/icons/ai + machine learning/03513-icon-service-AI-Studio.svg": {
+    "name": "AI Studio",
+    "description": "A cloud-based environment for building, training, and deploying custom AI models",
+    "tags": [
+      "AI",
+      "Machine Learning",
+      "Data Science"
+    ]
+  },
+  "/icons/ai + machine learning/10044-icon-service-Cognitive-Search.svg": {
+    "name": "Cognitive Search",
+    "description": "Cloud-based search service that indexes, ranks, and retrieves data from various sources",
+    "tags": [
+      "search",
+      "indexing",
+      "ranking",
+      "data retrieval"
+    ]
+  },
+  "/icons/ai + machine learning/10162-icon-service-Cognitive-Services.svg": {
+    "name": "Cognitive Services",
+    "description": "Azure Cognitive Services enables developers to build intelligent applications that can see, hear, understand, and interact with users using AI-powered features.",
+    "tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Natural Language Processing"
+    ]
+  },
+  "/icons/ai + machine learning/10164-icon-service-Genomics-Accounts.svg": {
+    "name": "Genomics Accounts",
+    "description": "Cloud-based genomics service for analyzing and processing large-scale genomic data",
+    "tags": [
+      "Genomics",
+      "Bioinformatics",
+      "Data Analytics",
+      "Machine Learning"
+    ]
+  },
+  "/icons/ai + machine learning/10165-icon-service-Bot-Services.svg": {
+    "name": "Bot Services",
+    "description": "Enables you to build, deploy, and manage intelligent bots that interact with users via popular messaging platforms.",
+    "tags": [
+      "AI",
+      "Machine Learning",
+      "Chatbots"
+    ]
+  },
+  "/icons/ai + machine learning/10166-icon-service-Machine-Learning.svg": {
+    "name": "Machine Learning",
+    "description": "Build, deploy, and manage machine learning models to analyze data and make predictions",
+    "tags": [
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Predictive Analytics"
+    ]
+  },
+  "/icons/ai + machine learning/10167-icon-service-Machine-Learning-Studio-Workspaces.svg": {
+    "name": "Machine Learning Studio Workspaces",
+    "description": "A collaborative environment for data scientists to build, train, and deploy machine learning models",
+    "tags": [
+      "Machine Learning",
+      "Data Science",
+      "Collaboration",
+      "Model Deployment"
+    ]
+  },
+  "/icons/ai + machine learning/10168-icon-service-Machine-Learning-Studio-Web-Service-Plans.svg": {
+    "name": "Machine Learning Studio Web Service Plans",
+    "description": "Create, deploy, and manage web services for machine learning models",
+    "tags": [
+      "Machine Learning",
+      "Web Services",
+      "Azure AI"
+    ]
+  }
+}

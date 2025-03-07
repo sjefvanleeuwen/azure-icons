@@ -1,0 +1,81 @@
+{
+  "/icons/app services/00046-icon-service-App-Service-Plans.svg": {
+    "name": "App Service Plans",
+    "description": "Manages the resources and settings for one or more web apps, including scaling, deployment slots, and configuration.",
+    "tags": [
+      "Azure",
+      "App Service",
+      "Web Apps",
+      "Scaling",
+      "Deployment Slots"
+    ]
+  },
+  "/icons/app services/00049-icon-service-App-Service-Certificates.svg": {
+    "name": "App Service Certificates",
+    "description": "Securely manage SSL/TLS certificates for Azure App Service environments",
+    "tags": [
+      "Azure",
+      "App Service",
+      "Security",
+      "SSL/TLS"
+    ]
+  },
+  "/icons/app services/00050-icon-service-App-Service-Domains.svg": {
+    "name": "App Service Domains",
+    "description": "Map custom domains to Azure Web Apps for secure and customizable URLs",
+    "tags": [
+      "Azure",
+      "AppService",
+      "Domains"
+    ]
+  },
+  "/icons/app services/00056-icon-service-CDN-Profiles.svg": {
+    "name": "CDN Profiles",
+    "description": "Azure CDN (Content Delivery Network) profiles enable you to manage and customize the delivery of static assets, such as images, videos, and CSS files.",
+    "tags": [
+      "CDN",
+      "ContentDeliveryNetwork",
+      "AssetDistribution"
+    ]
+  },
+  "/icons/app services/10035-icon-service-App-Services.svg": {
+    "name": "App Services",
+    "description": "Deploy, manage, and scale web applications through Microsoft Azure App Service",
+    "tags": [
+      "PaaS",
+      "Web Hosting",
+      "Application Deployment"
+    ]
+  },
+  "/icons/app services/10044-icon-service-Cognitive-Search.svg": {
+    "name": "Cognitive Search",
+    "description": "A cloud-based search service that indexes, ranks, and retrieves data from various sources",
+    "tags": [
+      "search",
+      "indexing",
+      "natural language processing",
+      "machine learning"
+    ]
+  },
+  "/icons/app services/10045-icon-service-Notification-Hubs.svg": {
+    "name": "Notification Hubs",
+    "description": "Enables sending targeted, cloud-based notifications to various platforms and devices",
+    "tags": [
+      "azure",
+      "notifications",
+      "mobile",
+      "push"
+    ]
+  },
+  "/icons/app services/10047-icon-service-App-Service-Environments.svg": {
+    "name": "App Service Environments",
+    "description": "Isolated, secure environments for hosting web apps and APIs, providing high performance and low latency.",
+    "tags": [
+      "Azure",
+      "App Service",
+      "Environments",
+      "Hosting",
+      "Web Apps"
+    ]
+  }
+}

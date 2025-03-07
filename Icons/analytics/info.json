@@ -1,0 +1,161 @@
+{
+  "/icons/analytics/00009-icon-service-Log-Analytics-Workspaces.svg": {
+    "name": "Log Analytics Workspaces",
+    "description": "Collect and analyze telemetry data from cloud and on-premises environments",
+    "tags": [
+      "analytics",
+      "monitoring",
+      "logs",
+      "telemetry"
+    ]
+  },
+  "/icons/analytics/00039-icon-service-Event-Hubs.svg": {
+    "name": "Event Hubs",
+    "description": "Process large-scale real-time data streaming and event ingestion",
+    "tags": [
+      "analytics",
+      "streaming",
+      "events",
+      "real-time"
+    ]
+  },
+  "/icons/analytics/00042-icon-service-Stream-Analytics-Jobs.svg": {
+    "name": "Stream Analytics Jobs",
+    "description": "Real-time analytics on streaming data from devices and applications",
+    "tags": [
+      "analytics",
+      "streaming",
+      "real-time",
+      "processing"
+    ]
+  },
+  "/icons/analytics/00562-icon-service-Endpoint-Analytics.svg": {
+    "name": "Endpoint Analytics",
+    "description": "Analyzes traffic to understand user behavior, detect anomalies, and improve application performance",
+    "tags": [
+      "Endpoint Analysis",
+      "Cloud Security",
+      "Application Performance"
+    ]
+  },
+  "/icons/analytics/00606-icon-service-Azure-Synapse-Analytics.svg": {
+    "name": "Azure Synapse Analytics",
+    "description": "Cloud-based enterprise data warehousing, big data analytics, and data integration solution",
+    "tags": [
+      "Data Warehousing",
+      "Big Data Analytics",
+      "Data Integration"
+    ]
+  },
+  "/icons/analytics/02189-icon-service-Azure-Workbooks.svg": {
+    "name": "Azure Workbooks",
+    "description": "Azure Workbooks enables users to create customized, interactive reports and dashboards for monitoring and analyzing cloud-based resources",
+    "tags": [
+      "monitoring",
+      "reporting",
+      "dashboards"
+    ]
+  },
+  "/icons/analytics/02209-icon-service-Private-Link-Services.svg": {
+    "name": "Private Link Services",
+    "description": "Private Link Services enables private connectivity to Azure services from on-premises networks, without exposing them publicly.",
+    "tags": [
+      "Azure Networking",
+      "Azure Services",
+      "Hybrid Cloud"
+    ]
+  },
+  "/icons/analytics/03332-icon-service-Power-BI-Embedded.svg": {
+    "name": "Power BI Embedded",
+    "description": "Embed Power BI reports and dashboards into web applications, mobile apps, or IoT devices",
+    "tags": [
+      "PowerBI",
+      "EmbeddedAnalytics",
+      "BusinessIntelligence"
+    ]
+  },
+  "/icons/analytics/03335-icon-service-Power-Platform.svg": {
+    "name": "Power Platform",
+    "description": "A low-code platform for building custom business applications, automating workflows, and analyzing data.",
+    "tags": [
+      "Power Apps",
+      "Power Automate",
+      "Microsoft Flow",
+      "Low-Code Development"
+    ]
+  },
+  "/icons/analytics/10126-icon-service-Data-Factories.svg": {
+    "name": "Data Factories",
+    "description": "Azure Data Factory (ADF) is a cloud-based data integration service that helps you to create, deploy, and manage scalable data pipelines for processing and moving large datasets between various sources and sinks.",
+    "tags": [
+      "Data Integration",
+      "Cloud-Based ETL",
+      "Big Data Processing"
+    ]
+  },
+  "/icons/analytics/10142-icon-service-HD-Insight-Clusters.svg": {
+    "name": "HD Insight Clusters",
+    "description": "HDInsight Clusters is a fully managed, open-source analytics service that enables you to process and analyze large datasets using popular frameworks such as Hadoop, Spark, Hive, Pig, and more",
+    "tags": [
+      "big-data",
+      "hadoop",
+      "spark",
+      "analytics"
+    ]
+  },
+  "/icons/analytics/10143-icon-service-Data-Lake-Analytics.svg": {
+    "name": "Data Lake Analytics",
+    "description": "Scales and processes large amounts of data in Azure Data Lake Storage using SQL, Python, or .NET.",
+    "tags": [
+      "BigData",
+      "Analytics",
+      "AzureDatalake",
+      "MachineLearning"
+    ]
+  },
+  "/icons/analytics/10145-icon-service-Azure-Data-Explorer-Clusters.svg": {
+    "name": "Azure Data Explorer Clusters",
+    "description": "Azure Data Explorer (Kusto) Clusters enable scalable, cloud-based analytics for log and IoT data",
+    "tags": [
+      "Analytics",
+      "Cloud-Native",
+      "Data-Ingestion"
+    ]
+  },
+  "/icons/analytics/10148-icon-service-Analysis-Services.svg": {
+    "name": "Analysis Services",
+    "description": "Cloud-based enterprise BI platform for analyzing and visualizing large datasets",
+    "tags": [
+      "Business Intelligence",
+      "Data Analytics",
+      "Big Data"
+    ]
+  },
+  "/icons/analytics/10149-icon-service-Event-Hub-Clusters.svg": {
+    "name": "Event Hub Clusters",
+    "description": "Process large volumes of events in real-time across multiple Event Hubs",
+    "tags": [
+      "Event Processing",
+      "Real-Time Data",
+      "Cloud-Native"
+    ]
+  },
+  "/icons/analytics/10150-icon-service-Data-Lake-Store-Gen1.svg": {
+    "name": "Data Lake Store Gen1",
+    "description": "A scalable, cloud-based repository for storing and processing large amounts of structured and unstructured data.",
+    "tags": [
+      "Data Storage",
+      "Big Data Analytics",
+      "Cloud Computing"
+    ]
+  },
+  "/icons/analytics/10787-icon-service-Azure-Databricks.svg": {
+    "name": "Azure Databricks",
+    "description": "A fast, easy-to-use analytics platform that enables data engineers, analysts, and scientists to work together seamlessly on large-scale data sets using Apache Spark",
+    "tags": [
+      "Big Data",
+      "Data Engineering",
+      "Analytics"
+    ]
+  }
+}

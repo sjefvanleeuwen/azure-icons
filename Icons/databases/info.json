@@ -1,0 +1,250 @@
+{
+  "/icons/databases/00036-icon-service-SQL-Data-Warehouses.svg": {
+    "name": "SQL Data Warehouses",
+    "description": "Azure SQL Data Warehouse is a cloud-based, enterprise-level data warehousing service that allows users to easily store, process, and analyze large datasets",
+    "tags": [
+      "Data Warehousing",
+      "Cloud Analytics",
+      "Big Data"
+    ]
+  },
+  "/icons/databases/00606-icon-service-Azure-Synapse-Analytics.svg": {
+    "name": "Azure Synapse Analytics",
+    "description": "Unified analytics platform for data integration, processing, and visualization.",
+    "tags": [
+      "data-integration",
+      "big-data",
+      "analytics"
+    ]
+  },
+  "/icons/databases/02390-icon-service-Azure-SQL.svg": {
+    "name": "Azure SQL",
+    "description": "Cloud-based relational database service for storing, managing, and querying data",
+    "tags": [
+      "Database",
+      "Relational",
+      "SQL"
+    ]
+  },
+  "/icons/databases/02392-icon-service-SSIS-Lift-And-Shift-IR.svg": {
+    "name": "SSIS Lift And Shift IR",
+    "description": "Automates the migration of SQL Server Integration Services (SSIS) packages to Azure-optimized workflows.",
+    "tags": [
+      "Azure",
+      "SQL Server Integration Services",
+      "Migration",
+      "Data Integration"
+    ]
+  },
+  "/icons/databases/02517-icon-service-Azure-Purview-Accounts.svg": {
+    "name": "Azure Purview Accounts",
+    "description": "Manage data assets, classifications, and governance policies across Azure and on-premises environments",
+    "tags": [
+      "Data Governance",
+      "Azure Management",
+      "Cloud Storage"
+    ]
+  },
+  "/icons/databases/02750-icon-service-Azure-SQL-Edge.svg": {
+    "name": "Azure SQL Edge",
+    "description": "Azure SQL Edge is an edge-based relational database service that enables data processing, storage, and analytics at the edge.",
+    "tags": [
+      "cloud",
+      "database",
+      "edge-computing"
+    ]
+  },
+  "/icons/databases/02827-icon-service-Azure-Database-PostgreSQL-Server-Group.svg": {
+    "name": "Azure Database PostgreSQL Server Group",
+    "description": "Manages multiple PostgreSQL servers within a single resource, simplifying database administration and scaling",
+    "tags": [
+      "PostgreSQL",
+      "Database Management",
+      "Cloud Native"
+    ]
+  },
+  "/icons/databases/03490-icon-service-Oracle-Database.svg": {
+    "name": "Oracle Database",
+    "description": "Migrate, manage, and scale Oracle databases in the cloud",
+    "tags": [
+      "Database",
+      "Cloud Migration",
+      "Enterprise"
+    ]
+  },
+  "/icons/databases/10121-icon-service-Azure-Cosmos-DB.svg": {
+    "name": "Azure Cosmos DB",
+    "description": "Global-scale, fully managed NoSQL database service for modern applications",
+    "tags": [
+      "NoSQL",
+      "DocumentDB",
+      "MongoDB",
+      "Key-Value"
+    ]
+  },
+  "/icons/databases/10122-icon-service-Azure-Database-MySQL-Server.svg": {
+    "name": "Azure Database MySQL Server",
+    "description": "A cloud-based MySQL database service for hosting, managing, and scaling relational databases",
+    "tags": [
+      "Database",
+      "Relational Database Management System",
+      "Cloud Computing"
+    ]
+  },
+  "/icons/databases/10123-icon-service-Azure-Database-MariaDB-Server.svg": {
+    "name": "Azure Database MariaDB Server",
+    "description": "A fully managed, cloud-native service that provides a scalable and secure MariaDB database for web and mobile applications.",
+    "tags": [
+      "Database",
+      "MariaDB",
+      "Cloud-Native"
+    ]
+  },
+  "/icons/databases/10124-icon-service-Azure-SQL-VM.svg": {
+    "name": "Azure SQL VM",
+    "description": "Run SQL Server on a Windows or Linux-based virtual machine, providing control over configuration, patching, and management",
+    "tags": [
+      "Database",
+      "Virtual Machines",
+      "SQL Server"
+    ]
+  },
+  "/icons/databases/10126-icon-service-Data-Factories.svg": {
+    "name": "Data Factories",
+    "description": "Azure Data Factory (ADF) is a cloud-based service that enables data integration, processing, and movement between various data sources.",
+    "tags": [
+      "Data Integration",
+      "ETL",
+      "Data Processing"
+    ]
+  },
+  "/icons/databases/10127-icon-service-Virtual-Clusters.svg": {
+    "name": "Virtual Clusters",
+    "description": "Manage and orchestrate Azure Kubernetes Service (AKS) clusters at scale, with automated deployment and scaling of nodes",
+    "tags": [
+      "Azure Kubernetes Service",
+      "Container Orchestration",
+      "Cloud-Native Applications"
+    ]
+  },
+  "/icons/databases/10128-icon-service-Elastic-Job-Agents.svg": {
+    "name": "Elastic Job Agents",
+    "description": "Automate and manage scalable, long-running workloads in Azure",
+    "tags": [
+      "Azure",
+      "Cloud Computing",
+      "Job Scheduling"
+    ]
+  },
+  "/icons/databases/10130-icon-service-SQL-Database.svg": {
+    "name": "SQL Database",
+    "description": "A cloud-based relational database service that supports popular programming languages and data platforms, allowing you to easily build, deploy, and manage scalable databases.",
+    "tags": [
+      "Database",
+      "Relational Database",
+      "Cloud-Based"
+    ]
+  },
+  "/icons/databases/10131-icon-service-Azure-Database-PostgreSQL-Server.svg": {
+    "name": "Azure Database PostgreSQL Server",
+    "description": "A fully managed, relational database service based on the popular PostgreSQL RDBMS for hosting various PostgreSQL-based workloads.",
+    "tags": [
+      "PostgreSQL",
+      "Relational Database",
+      "Cloud-Native"
+    ]
+  },
+  "/icons/databases/10132-icon-service-SQL-Server.svg": {
+    "name": "SQL Server",
+    "description": "A cloud-based relational database service that supports popular programming languages such as .NET, Java, Node.js, PHP and Python.",
+    "tags": [
+      "relational-database",
+      "cloud-database",
+      "sql-server"
+    ]
+  },
+  "/icons/databases/10133-icon-service-Azure-Database-Migration-Services.svg": {
+    "name": "Azure Database Migration Services",
+    "description": "Migrates on-premises databases to Azure, leveraging automated assessments and minimal downtime",
+    "tags": [
+      "DatabaseMigration",
+      "CloudMigration",
+      "AzureServices"
+    ]
+  },
+  "/icons/databases/10134-icon-service-SQL-Elastic-Pools.svg": {
+    "name": "SQL Elastic Pools",
+    "description": "Manage multiple databases on a single pool, sharing resources to optimize costs and scalability.",
+    "tags": [
+      "Azure",
+      "SQL Database",
+      "Database Management",
+      "Elasticity"
+    ]
+  },
+  "/icons/databases/10135-icon-service-Managed-Database.svg": {
+    "name": "Managed Database",
+    "description": "Cloud-based relational database service for MySQL, PostgreSQL, and SQL Server databases",
+    "tags": [
+      "azure",
+      "managed-database",
+      "cloud-relational-database"
+    ]
+  },
+  "/icons/databases/10136-icon-service-SQL-Managed-Instance.svg": {
+    "name": "SQL Managed Instance",
+    "description": "A cloud-based, managed relational database service that allows you to run SQL Server databases in Azure without having to manage underlying infrastructure.",
+    "tags": [
+      "Database",
+      "Cloud",
+      "Managed",
+      "Relational"
+    ]
+  },
+  "/icons/databases/10137-icon-service-Azure-SQL-Server-Stretch-Databases.svg": {
+    "name": "Azure SQL Server Stretch Databases",
+    "description": "Automatically migrates data from on-premises SQL Server databases to Azure Blob Storage for archiving, while keeping frequently accessed data on-premises",
+    "tags": [
+      "Azure",
+      "SQL Server",
+      "Database Migration",
+      "Data Archiving"
+    ]
+  },
+  "/icons/databases/10137-icon-service-Cache-Redis.svg": {
+    "name": "Cache Redis",
+    "description": "Azure Cache (Redis) is a cloud-based caching service that improves application performance by providing fast access to frequently used data.",
+    "tags": [
+      "cache",
+      "redis",
+      "performance"
+    ]
+  },
+  "/icons/databases/10139-icon-service-Instance-Pools.svg": {
+    "name": "Instance Pools",
+    "description": "Manages a pool of virtual machine instances that can be used to scale applications",
+    "tags": [
+      "azure-virtual-machines",
+      "instance-pooling",
+      "scaling"
+    ]
+  },
+  "/icons/databases/10145-icon-service-Azure-Data-Explorer-Clusters.svg": {
+    "name": "Azure Data Explorer Clusters",
+    "description": "Azure Data Explorer Clusters enable scalable, cloud-based data exploration and analytics for large-scale datasets",
+    "tags": [
+      "Cloud-Native Analytics",
+      "Big Data Processing",
+      "Data Exploration"
+    ]
+  },
+  "/icons/databases/10351-icon-service-SQL-Server-Registries.svg": {
+    "name": "SQL Server Registries",
+    "description": "Centralized management of SQL Server instances, allowing for monitoring, backup, and patching across multiple environments.",
+    "tags": [
+      "azure",
+      "sql-server",
+      "database-management"
+    ]
+  }
+}

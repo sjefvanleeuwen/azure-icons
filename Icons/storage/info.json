@@ -1,0 +1,17 @@
+{
+  "/icons/storage/10086-icon-service-Storage-Accounts.svg": {
+    "name": "Storage Accounts",
+    "description": "Durable, highly available, and massively scalable cloud storage",
+    "tags": ["storage", "blob", "files", "cloud storage"]
+  },
+  "/icons/storage/10096-icon-service-Azure-NetApp-Files.svg": {
+    "name": "Azure NetApp Files",
+    "description": "Enterprise-grade Azure file shares powered by NetApp",
+    "tags": ["storage", "file storage", "enterprise", "netapp"]
+  },
+  "/icons/storage/10093-icon-service-Storage-Sync-Services.svg": {
+    "name": "Storage Sync Services",
+    "description": "Centralized file sync and access across cloud and on-premises",
+    "tags": ["storage", "sync", "hybrid", "files"]
+  }
+}

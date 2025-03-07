@@ -1,0 +1,68 @@
+{
+  "/icons/containers/10023-icon-service-Kubernetes-Services.svg": {
+    "name": "Kubernetes Services",
+    "description": "Managed Kubernetes container orchestration service for deploying and scaling applications",
+    "tags": [
+      "containers",
+      "kubernetes",
+      "orchestration",
+      "microservices"
+    ]
+  },
+  "/icons/containers/10104-icon-service-Container-Instances.svg": {
+    "name": "Container Instances",
+    "description": "Run containers without managing servers, with per-second billing",
+    "tags": [
+      "containers",
+      "serverless",
+      "docker",
+      "microservices"
+    ]
+  },
+  "/icons/containers/10105-icon-service-Container-Registries.svg": {
+    "name": "Container Registries",
+    "description": "Store and manage container images for all types of deployments",
+    "tags": [
+      "containers",
+      "registry",
+      "docker",
+      "artifacts"
+    ]
+  },
+  "/icons/containers/03331-icon-service-Azure-Red-Hat-OpenShift.svg": {
+    "name": "Azure Red Hat OpenShift",
+    "description": "A cloud-based, enterprise-ready Kubernetes service that provides a reliable and scalable platform for containerized applications.",
+    "tags": [
+      "Kubernetes",
+      "Containerization",
+      "Cloud-Native"
+    ]
+  },
+  "/icons/containers/10031-icon-service-Batch-Accounts.svg": {
+    "name": "Batch Accounts",
+    "description": "Automate large-scale job execution, scaling compute resources to handle complex tasks",
+    "tags": [
+      "Cloud Computing",
+      "Parallel Processing",
+      "High-Performance Computing"
+    ]
+  },
+  "/icons/containers/10035-icon-service-App-Services.svg": {
+    "name": "App Services",
+    "description": "Host, manage, and scale web applications and microservices through automated deployment, scaling, and management.",
+    "tags": [
+      "Azure App Service",
+      "Web Hosting",
+      "Microservices"
+    ]
+  },
+  "/icons/containers/10036-icon-service-Service-Fabric-Clusters.svg": {
+    "name": "Service Fabric Clusters",
+    "description": "Manages and orchestrates microservices applications in a distributed environment",
+    "tags": [
+      "Distributed Systems",
+      "Microservices Architecture",
+      "Container Orchestration"
+    ]
+  }
+}

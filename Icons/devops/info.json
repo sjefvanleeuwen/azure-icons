@@ -1,0 +1,108 @@
+{
+  "/icons/devops/00012-icon-service-Application-Insights.svg": {
+    "name": "Application Insights",
+    "description": "Monitors and analyzes application performance, usage, and exceptions to identify issues and improve user experience.",
+    "tags": [
+      "Azure",
+      "Monitoring",
+      "Analytics",
+      "Performance"
+    ]
+  },
+  "/icons/devops/00563-icon-service-Change-Analysis.svg": {
+    "name": "Change Analysis",
+    "description": "Analyzes changes to Azure resources, identifying potential issues and providing recommendations for improvement.",
+    "tags": [
+      "Azure",
+      "Change Management",
+      "Infrastructure as Code"
+    ]
+  },
+  "/icons/devops/02373-icon-service-CloudTest.svg": {
+    "name": "CloudTest",
+    "description": "A fully managed service for automating testing of cloud-native applications, APIs, and services.",
+    "tags": [
+      "Cloud-Native",
+      "API Testing",
+      "Service Testing"
+    ]
+  },
+  "/icons/devops/02423-icon-service-Load-Testing.svg": {
+    "name": "Load Testing",
+    "description": "Simulate and analyze load on web applications, APIs, and microservices to ensure scalability and performance",
+    "tags": [
+      "load testing",
+      "performance testing",
+      "scalability testing",
+      "azure services"
+    ]
+  },
+  "/icons/devops/02761-icon-service-Lab-Accounts.svg": {
+    "name": "Lab Accounts",
+    "description": "Manage and deliver cloud-based labs to students, teachers, or developers for hands-on learning and testing",
+    "tags": [
+      "devops",
+      "education",
+      "cloud-labs",
+      "collaboration"
+    ]
+  },
+  "/icons/devops/03339-icon-service-DevOps-Starter.svg": {
+    "name": "DevOps Starter",
+    "description": "Streamlines application development by providing pre-configured, cloud-based infrastructure for building, testing, and deploying applications",
+    "tags": [
+      "DevOps",
+      "CI/CD",
+      "Application Development",
+      "Azure Services"
+    ]
+  },
+  "/icons/devops/03393-icon-service-Managed-DevOps-Pools.svg": {
+    "name": "Managed DevOps Pools",
+    "description": "Streamline CI/CD processes by managing multiple devops pipelines in a single, scalable pool of agents",
+    "tags": [
+      "Managed",
+      "DevOps",
+      "Pipelines",
+      "CI/CD",
+      "Agent Management"
+    ]
+  },
+  "/icons/devops/03455-icon-service-Code-Optimization.svg": {
+    "name": "Code Optimization",
+    "description": "Optimizes and improves the performance of .NET code running in Azure, including applications written using ASP.NET, WPF, and Windows Forms",
+    "tags": [
+      "CodeOptimization",
+      ".NET",
+      "PerformanceTuning"
+    ]
+  },
+  "/icons/devops/03623-icon-service-Workspace-Gateway.svg": {
+    "name": "Workspace Gateway",
+    "description": "Securely access on-premises data and resources from Azure-based services through a single, managed gateway",
+    "tags": [
+      "Azure",
+      "Workspace",
+      "Gateway",
+      "Network"
+    ]
+  },
+  "/icons/devops/10042-icon-service-API-Management-Services.svg": {
+    "name": "API Management Services",
+    "description": "API Management provides a cloud-based platform to design, implement, and manage APIs across multiple protocols and platforms.",
+    "tags": [
+      "api-management",
+      "azure-api-management",
+      "restful-apis"
+    ]
+  },
+  "/icons/devops/10048-icon-service-API-Connections.svg": {
+    "name": "API Connections",
+    "description": "API Connections enables secure, managed connections to external APIs and services for Azure applications.",
+    "tags": [
+      "API Management",
+      "Security",
+      "Integration"
+    ]
+  }
+}

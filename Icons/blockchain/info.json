@@ -1,0 +1,52 @@
+{
+  "/icons/blockchain/10210-icon-service-Blockchain-Applications.svg": {
+    "name": "Blockchain Applications",
+    "description": "Develop, deploy, and manage blockchain-based applications on Microsoft's cloud platform",
+    "tags": [
+      "blockchain",
+      "distributed ledger technology",
+      "smart contracts"
+    ]
+  },
+  "/icons/blockchain/10364-icon-service-Outbound-Connection.svg": {
+    "name": "Outbound Connection",
+    "description": "Azure Outbound Connection enables secure, controlled, and auditable outbound connections from virtual networks to the internet or other Azure services.",
+    "tags": [
+      "Networking",
+      "Security",
+      "Virtual Networks"
+    ]
+  },
+  "/icons/blockchain/10366-icon-service-Azure-Blockchain-Service.svg": {
+    "name": "Azure Blockchain Service",
+    "description": "A cloud-based platform for building, managing, and scaling blockchain applications",
+    "tags": [
+      "Blockchain",
+      "Cloud",
+      "Distributed Ledger Technology"
+    ]
+  },
+  "/icons/blockchain/10367-icon-service-Azure-Token-Service.svg": {
+    "name": "Azure Token Service",
+    "description": "Azure Token Service (ATLAS) provides token-based authentication for secure access to Azure services, enabling Single Sign-On (SSO) and federated identity",
+    "tags": [
+      "Authentication",
+      "Authorization",
+      "SingleSignOn"
+    ]
+  },
+  "/icons/blockchain/10374-icon-service-ABS-Member.svg": {
+    "name": "ABS Member",
+    "description": "",
+    "tags": []
+  },
+  "/icons/blockchain/10375-icon-service-Consortium.svg": {
+    "name": "Consortium",
+    "description": "Azure Consortium enables collaboration and knowledge-sharing among organizations, facilitating joint innovation and research projects.",
+    "tags": [
+      "Collaboration",
+      "Research",
+      "Innovation"
+    ]
+  }
+}

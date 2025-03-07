@@ -1,0 +1,10 @@
+{
+  "name": "azure-icons-info-generator",
+  "version": "1.0.0",
+  "description": "Generate rich metadata for Azure service icons using Ollama",
+  "main": "generate-service-info.js",
+  "scripts": {
+    "start": "node generate-service-info.js"
+  },
+  "dependencies": {}
+}

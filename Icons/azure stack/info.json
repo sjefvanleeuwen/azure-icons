@@ -1,0 +1,66 @@
+{
+  "/icons/azure stack/00965-icon-service-Multi-Tenancy.svg": {
+    "name": "Multi Tenancy",
+    "description": "Azure Multi Tenancy enables isolation of resources, applications, and data between different organizations or departments within an organization",
+    "tags": [
+      "Multi Tenancy",
+      "Isolation",
+      "Security"
+    ]
+  },
+  "/icons/azure stack/10108-icon-service-Infrastructure-Backup.svg": {
+    "name": "Infrastructure Backup",
+    "description": "Automated backup and restore of Azure virtual machines, disks, and storage accounts",
+    "tags": [
+      "Azure",
+      "Backup",
+      "Disaster Recovery"
+    ]
+  },
+  "/icons/azure stack/10109-icon-service-Capacity.svg": {
+    "name": "Capacity",
+    "description": "Azure Capacity helps you manage and optimize your cloud resources, including compute, storage, and networking.",
+    "tags": [
+      "Cloud Optimization",
+      "Resource Management",
+      "Cost Management"
+    ]
+  },
+  "/icons/azure stack/10110-icon-service-Offers.svg": {
+    "name": "Offers",
+    "description": "Azure Offers provides a centralized platform to manage and deliver custom offers for cloud services, allowing customers to create and consume customized pricing models.",
+    "tags": [
+      "cloud-quotas",
+      "pricing-models",
+      "customized-offers"
+    ]
+  },
+  "/icons/azure stack/10111-icon-service-User-Subscriptions.svg": {
+    "name": "User Subscriptions",
+    "description": "Manage access to Azure services and resources for users, groups, or organizations",
+    "tags": [
+      "Identity",
+      "Access Management",
+      "Security",
+      "Azure Governance"
+    ]
+  },
+  "/icons/azure stack/10113-icon-service-Plans.svg": {
+    "name": "Plans",
+    "description": "Azure Plans enables you to manage and govern your Azure resources by grouping them into logical plans, making it easier to track usage and costs.",
+    "tags": [
+      "Cost Management",
+      "Resource Governance",
+      "Azure Management"
+    ]
+  },
+  "/icons/azure stack/10115-icon-service-Updates.svg": {
+    "name": "Updates",
+    "description": "Azure Updates enables you to manage updates for your Windows-based virtual machines (VMs) running on Azure, ensuring they stay secure and up-to-date.",
+    "tags": [
+      "Azure Virtual Machines",
+      "Windows Update",
+      "Patch Management"
+    ]
+  }
+}
